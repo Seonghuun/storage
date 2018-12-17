@@ -23,6 +23,10 @@
         <activity android:name=".subActivity1">
 
         </activity>
+        <activity android:name=".subActivity2">
+
+        </activity>
+
     </application>
 
 </manifest>
