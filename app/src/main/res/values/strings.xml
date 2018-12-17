@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">GuideForSoccerBeginner</string>
+    <string name="play">Play</string>
+    <string name="dribble">1. 드리블</string>
+    <string name="pass">2. 패스</string>
+    <string name="shooting">3. 슈팅</string>
+    <string name="button">Button</string>
+    <string name="guide_for_soccer_beginners">Guide For Soccer Beginners</string>
+    <string name="startbutton">startButton</string>
+    <string name="ronaldo">ronaldo</string>
+    <string name="order">목차</string>
+
+    <string name="next">next</string>
+    <string name="player">player</string>
+    <string name="player_list">선수목록</string>
+    <string name="information">information</string>
+    <string name="imageimg">imageimg</string>
+
 </resources>

@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/seonghoonColor"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="22dp"
         android:layout_marginTop="22dp"
-        android:text="   Guide For Soccer Beginners"
+        android:text="@string/guide_for_soccer_beginners"
         android:textSize="25sp"
         tools:text="   Guide For Soccer Beginners" />
 
@@ -27,6 +28,7 @@
         android:layout_alignStart="@+id/Header"
         android:layout_marginStart="21dp"
         android:layout_marginTop="0dp"
+        android:contentDescription="@string/ronaldo"
         android:src="@drawable/first" />
 
     <Button
@@ -35,9 +37,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:text="startButton" /><![CDATA[
-
-    @drawable/start" />
-
-]]>
+        android:text="@string/startbutton" />
 </RelativeLayout>

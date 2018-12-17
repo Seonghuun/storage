@@ -28,6 +28,9 @@ public class subActivity1 extends YouTubeBaseActivity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_sub1);
+
+
+
         Log.d(TAG, "onCreate: Starting.");
         btnPlay = (Button) findViewById(R.id.btnPlay);
         mYouTubePlayerView = (YouTubePlayerView) findViewById(R.id.youtubePlay);
@@ -57,6 +60,17 @@ public class subActivity1 extends YouTubeBaseActivity {
 
             }
         });
+        Button next = (Button) findViewById(R.id.next);
+
+        next.setOnClickListener(
+                new Button.OnClickListener() {
+                        public void onClick(View v) {
+                        startActivity(new Intent(subActivity1.this, subActivity2.class));
+                    }
+                }
+        );
+
+
 
     }
 }

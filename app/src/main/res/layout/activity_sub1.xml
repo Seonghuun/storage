@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/seonghoonColor"
     tools:context=".subActivity1">
 
 
@@ -13,15 +14,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/youtubePlay"
-        android:layout_centerHorizontal="true"
-        android:text="Play" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="-2dp"
+        android:text="@string/play" />
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="254dp"
+        android:text="@string/order"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView"
@@ -29,8 +45,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="218dp"
-        android:text="1. 드리블" />
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="253dp"
+        android:text="@string/dribble"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -38,8 +56,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="-218dp"
-        android:text="2. 패스" />
+        android:text="@string/pass"
+        android:textSize = "20sp"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -47,14 +67,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
-        android:text="3. 슈팅" />
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/shooting"
+        android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/next"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="Button" />
+        android:text="@string/next" />
+
 </RelativeLayout>
